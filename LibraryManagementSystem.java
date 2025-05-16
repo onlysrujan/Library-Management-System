@@ -3,9 +3,9 @@ import java.sql.*;
 import java.util.*;
 public class LibraryManagementSystem {
 
-	private static final String URL = "jdbc:oracle:thin:@//localhost:1522/xepdb1"; // Update with your DB details
-    private static final String USER = "system"; // Update username
-    private static final String PASSWORD = "system"; // Update password
+    private static final String URL = "jdbc:oracle:thin:@//localhost:1522/xepdb1"; 
+    private static final String USER = "system"; 
+    private static final String PASSWORD = "system"; 
 
     private static final Scanner scanner = new Scanner(System.in);
 
